@@ -5,35 +5,21 @@
  */
 package intralgorithms;
 
-import intralgorithms.sort.ISort;
-import intralgorithms.sort.InsertionSort;
+import intralgorithms.chp2.ISort;
+import intralgorithms.chp2.InsertionSort;
 
 /**
  *
  * @author eslem
  */
 public class IntrAlgorithms {
-
-    public static void printArr(int[] arr) {
-        for (int i : arr) {
-            System.out.println(i);
-        }
-    }
-
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
 
-        InsertionSort sorter = new InsertionSort();
-
-        int[] arr = {3, 1, 4, 5, 7};
-        printArr(arr);
-        System.out.println("______");
-        printArr(sorter.sort(arr, true));
-        System.out.println("______");
-        printArr(sorter.sort(arr, false));
+      
     }
 
 }
