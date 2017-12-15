@@ -30,9 +30,5 @@ public class SelectionSort implements ISort {
         return arr;
     }
 
-    @Override
-    public int[] descSort(int[] arr) {
-        return arr;
-    }
 
 }

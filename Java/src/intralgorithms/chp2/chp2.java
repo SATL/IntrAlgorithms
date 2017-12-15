@@ -23,7 +23,7 @@ public class chp2 {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        InsertionSort sorter = new InsertionSort();
+        /*InsertionSort sorter = new InsertionSort();
 
         int[] arr = {31, 41, 59, 26, 41, 58};
         printArr(arr);
@@ -44,6 +44,11 @@ public class chp2 {
         System.out.println("Selection Sort");
         SelectionSort selectionSort = new SelectionSort();
         int[] arrB = {32, 12, 34, 1, 12};
-        printArr(selectionSort.sort(arrB));
+        printArr(selectionSort.sort(arrB));*/
+        
+        System.out.println("Merge Sort");
+        MergeSort mergeSort = new MergeSort();
+        int[] arrC = {32, 12, 34, 1, 12};
+        printArr(mergeSort.sort(arrC));
     }
 }

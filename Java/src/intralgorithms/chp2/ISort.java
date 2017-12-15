@@ -11,5 +11,4 @@ package intralgorithms.chp2;
  */
 public interface ISort {
     public int[] sort(int arr[]);
-    public int[] descSort(int arr[]);
 }

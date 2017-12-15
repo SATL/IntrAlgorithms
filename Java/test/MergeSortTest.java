@@ -4,6 +4,9 @@
  * and open the template in the editor.
  */
 
+import intralgorithms.chp2.MergeSort;
+import java.util.Arrays;
+import java.util.Random;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -15,25 +18,10 @@ import static org.junit.Assert.*;
  *
  * @author eslem
  */
-public class InsertionSort {
+public class MergeSortTest extends SortTest {
     
-    public InsertionSort() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
+    public MergeSortTest(){
+        sorter = new MergeSort();
     }
 
     // TODO add test methods here.
@@ -41,4 +29,6 @@ public class InsertionSort {
     //
     // @Test
     // public void hello() {}
+    
+
 }
