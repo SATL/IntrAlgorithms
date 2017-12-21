@@ -5,7 +5,7 @@
  */
 package intralgorithms;
 
-import intralgorithms.chp2.ISort;
+import intralgorithms.Interfaces.ISort;
 import intralgorithms.chp2.InsertionSort;
 
 /**

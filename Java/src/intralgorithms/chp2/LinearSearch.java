@@ -5,6 +5,8 @@
  */
 package intralgorithms.chp2;
 
+import intralgorithms.Interfaces.ISearch;
+
 /**
  *
  * @author eslem

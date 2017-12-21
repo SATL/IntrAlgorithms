@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-import intralgorithms.chp2.ISort;
+import intralgorithms.Interfaces.ISort;
 import intralgorithms.chp2.MergeSort;
 import java.util.Arrays;
 import java.util.Random;
